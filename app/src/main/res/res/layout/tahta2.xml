@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logoo">
+
+    <ScrollView
+        android:id="@+id/scrollTahta"
+        android:layout_width="match_parent"
+        android:layout_height="410dp"
+        android:layout_marginTop="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:overScrollMode="always">
+
+        <EditText
+            android:id="@+id/tahta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:ems="10"
+            android:enabled="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:inputType="textMultiLine"
+            android:isScrollContainer="true"
+            android:minLines="12"
+            android:scrollbarStyle="insideInset"
+            android:scrollbars="vertical"
+            android:text=""
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textIsSelectable="true"
+            android:textSize="14sp" />
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_below="@+id/scrollTahta">
+
+        <Button
+            android:id="@+id/geri"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/geri"
+            android:text="" />
+
+        <Button
+            android:id="@+id/git"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:background="@drawable/number_edit"
+            android:textStyle="bold"
+            android:text="@string/git" />
+
+        <EditText
+            android:id="@+id/gitSayi"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:inputType="number"
+            android:textColor="#ffffff">
+
+        </EditText>
+
+        <Button
+            android:id="@+id/ileri"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/ileri"
+            android:text="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/reklam_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="3dp"
+        android:orientation="vertical" />
+
+
+</RelativeLayout>

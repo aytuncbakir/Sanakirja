@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/addlay"
+    android:orientation="vertical"
+    android:background="@drawable/logoo"
+    tools:context=".VeriTabaniActivitySearch">
+
+
+    <EditText
+        android:id="@+id/aranacakKelime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:alpha="0.5"
+        android:ems="10"
+        android:hint="Aranacak Kelime"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:scrollbars="vertical"
+        android:isScrollContainer="true"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"/>
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/buton_selektor1"
+        android:text="ARA"
+        android:textColor="#ffffff" />
+
+
+    <WebView
+
+        android:id="@+id/arananKelime"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+
+        />
+
+
+
+
+</LinearLayout>

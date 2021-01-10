@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gokyuzu"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:id="@+id/giris_layout">
+
+   <android.support.v7.widget.RecyclerView
+       android:id="@+id/recyclerview_giris"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/tv"
+       android:layout_margin="10dp"
+       android:layout_centerHorizontal="true"
+       android:layout_centerVertical="true">
+   </android.support.v7.widget.RecyclerView>
+
+   <TextView
+       android:id="@+id/tv"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentTop="true"
+       android:layout_centerHorizontal="true"
+       android:paddingTop="3dp"
+       android:paddingBottom="3dp"
+       android:layout_marginTop="20dp"
+       android:padding="5dp"
+       android:gravity="center"
+       android:textAlignment="center"
+       android:textColor="@color/buton_rengi_pres"
+       android:background="@drawable/giris_baslik"
+       android:text="" />
+
+</RelativeLayout>

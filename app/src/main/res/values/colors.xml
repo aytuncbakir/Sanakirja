@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#a0522d</color>
+    <color name="colorPrimaryDark">#8b4513</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="buton_rengi">#004d40</color>
+    <color name="buton_rengi_pres">#e5faf7</color>
+    <color name="burc">#cd69c9</color>
+    <color name="sozler">#8B4789</color>
+    <color name="ruya">#004d40</color>
+    <color name="fal">#ff5f00</color>
+    <color name="cin">#FF4081</color>
+    <color name="mesaj">#610000</color>
+    <color name="ilginc">#570095 </color>
+    <color name="eglence">#f00000</color>
+    <color name="kizildereli">#ffffff</color>
+    <color name="renk2">#FF6A6A</color>
+    <color name="renk3">#00FFFF</color>
+    <color name="renk4">#FF1493</color>
+    <color name="renk5">#FFD700</color>
+    <color name="renk6">#00FF00</color>
+    <color name="renk7">#008080</color>
+    <color name="renk8">#0000FF</color>
+    <color name="renk9">#F5DEB3</color>
+    <color name="renk10">#BC8F8F</color>
+    <color name="renk11">#B0C4DE</color>
+    <color name="renk12">#EEEE00</color>
+    <color name="renk13">#FF9912</color>
+    <color name="renk14">#006400</color>
+    <color name="renk15">#97FFFF</color>
+    <color name="renk16">#7CFC00</color>
+    <color name="renk17">#EEEE00</color>
+    <color name="renk18">#54FF9F</color>
+    <color name="renk19">#00C78C</color>
+    <color name="renk20">#00BFFF</color>
+    <color name="renk22">#FF00FF</color>
+    <color name="renk23">#6495ed</color>
+    <color name="renk24">#008080</color>
+    <color name="renk25">#FFFF99</color>
+    <color name="renk26">#FF69B4</color>
+    <color name="renk27">#3CB371</color>
+</resources>

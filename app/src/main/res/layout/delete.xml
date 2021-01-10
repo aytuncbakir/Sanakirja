@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:id="@+id/addlay"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/logoo"
+    tools:context=".VeriTabaniActivityDelete">
+
+
+    <EditText
+        android:id="@+id/silinecekData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:alpha="0.5"
+        android:ems="10"
+        android:hint="Silinecek Kelime"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:scrollbars="vertical"
+        android:isScrollContainer="true"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"/>
+
+    <Button
+        android:id="@+id/btnSil"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_margin="3dp"
+        android:background="@drawable/buton_selektor1"
+        android:text="Sil"
+        android:textColor="#ffffff" />
+
+
+
+</LinearLayout>

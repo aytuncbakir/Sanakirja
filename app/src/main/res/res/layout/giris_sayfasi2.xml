@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logoo"
+    android:id="@+id/giris_layout">
+
+   <android.support.v7.widget.RecyclerView
+       android:id="@+id/recyclerview_giris"
+       android:layout_width="match_parent"
+       android:layout_height="490dp"
+       android:layout_below="@+id/tv"
+       android:layout_centerHorizontal="true"/>
+
+   <TextView
+       android:id="@+id/tv"
+       android:layout_width="220dp"
+       android:layout_height="55dp"
+       android:layout_alignParentTop="true"
+       android:layout_centerHorizontal="true"
+       android:gravity="center"
+       android:paddingTop="3dp"
+       android:paddingBottom="3dp"
+       android:layout_marginTop="20dp"
+       android:padding="5dp"
+       android:textAlignment="center"
+       android:textColor="@color/buton_rengi_pres"
+       android:background="@drawable/giris_baslik"
+       android:textSize="18sp"
+       android:text="" />
+
+   <LinearLayout
+       android:id="@+id/reklam_layout"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true"
+       android:layout_centerHorizontal="true"
+       android:layout_marginBottom="3dp"
+       android:orientation="vertical" />
+
+</RelativeLayout>

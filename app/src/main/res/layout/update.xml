@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:id="@+id/addlay"
+    android:orientation="vertical"
+    android:background="@drawable/logoo"
+    tools:context=".VeriTabaniActivityUpdate">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/kelime"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:alpha="0.5"
+                android:ems="10"
+                android:hint="Kelime:"
+                android:textSize="24sp"
+                android:padding="5dp"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:scrollbars="vertical"
+                android:isScrollContainer="true"
+                android:background="@drawable/buton_basili1"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff" />
+
+            <Button
+                android:id="@+id/btnGetir"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/buton_selektor1"
+                android:text="ARA"
+                android:textColor="#ffffff" />
+
+
+            <EditText
+                android:id="@+id/kelimeAnlam"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:alpha="0.5"
+                android:ems="10"
+                android:textSize="24sp"
+                android:padding="5dp"
+                android:hint="Kelime Anlam:"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:scrollbars="vertical"
+                android:isScrollContainer="true"
+                android:background="@drawable/buton_basili1"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff" />
+
+
+            <EditText
+                android:id="@+id/kelimeCumle"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:layout_margin="10dp"
+                android:alpha="0.5"
+                android:ems="10"
+                android:textSize="24sp"
+                android:padding="5dp"
+                android:hint="Cümleler:"
+                android:inputType="textPersonName"
+                android:textAlignment="textStart"
+                android:gravity="start"
+                android:scrollbars="vertical"
+                android:isScrollContainer="true"
+                android:background="@drawable/buton_basili1"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
+
+                <Button
+                    android:id="@+id/btnUpdate"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/buton_selektor1"
+                    android:text="GÜNCELLE"
+                    android:textColor="#ffffff" />
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
